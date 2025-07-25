@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Block crawlers from tracking files
+Disallow: /api/
+Disallow: /_next/
+Disallow: /scripts/
+Disallow: /sitemap.xml/
+Disallow: /robots.txt/
+
+Sitemap: https://phototext.online/sitemap.xml
